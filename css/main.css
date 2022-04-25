@@ -1,0 +1,46 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+h2{font-family: 'Playfair Display', serif;}
+h3{font-family: 'Kaushan Script', cursive}
+
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li{
+    list-style: none;
+    display: inline-block; /*Alinear uno al lado del otro*/
+    padding: 0;
+    margin: 0;
+    vertical-align: top; /*Alinear todo a la parte superior*/
+}
+.btn{
+    border-radius:  40px;
+    border: solid 10px;
+    padding: 10px 50px;
+    color: white;
+    text-decoration: none; 
+    -webkit-background-clip: padding-box;/*Para poder incrementarlo sin que se contraiga el elemento*/
+    background-clip: padding-box;
+}
+.btn-vrd{
+    background-color: #109424;
+    border-color: rgba(16, 148, 36, 0.5);
+    transition: background-color 1s;
+}
+.btn-vrd:hover{
+    background-color: #36D94F;
+}
+
+#main-container #main-section{
+    background-image: url(../img/home.jpg);
+    background-size: 100%;
+    height: 100vh;
+    padding: 50px;
+}
